@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Salsa&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            height: 40vh;
+        }
+
+        .line {
+            height: 1px;
+            background-color: #C99A63;
+            margin: 0;
+            padding: 1px 0;
+        }
+
+        .isi-about {
+            margin-top: 4rem;
+        }
+
+        .isi-about p {
+            max-width: 700px;
+        }
+
+        .isi-about img {
+            float: right;
+            width: 360px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbarframe">
+        <iframe class="navbar-f" src="Ifnavbar.html"
+            style="width: 100%; border: none; position: fixed; top: 0; left: 0; z-index: 9999; height: 100px; background: transparent;"
+            scrolling="no"></iframe>
+        <iframe id="main" src="Ifpushakery.html" style="width: 100%;"></iframe>
+    </div>
+
+    <main class="max-w-6xl mx-auto p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-4xl font-bold">About</h2>
+            <p id="date-display" class="ml-12 text-sm"></p>
+        </div>
+        <div class="line"></div>
+
+        <div class="isi-about">
+            <img src="img/roti-about.png" alt="">
+            <p>Pusha Bakery is a charming bakery located at President University Student Housing (PUSH), created with a
+                passion for delivering the finest flavors from the hands of skilled professionals. Led by a talented
+                team of five chefs, we bake fresh bread and pastries every day. We prioritize the quality of our
+                ingredients and authentic taste, ensuring that every bite brings joy and satisfaction. Pusha Bakery is
+                committed to being the top choice for bread and pastry lovers, offering a cozy atmosphere and products
+                that always delight the senses.</p>
+        </div>
+        <br>
+
+        <h2 class="text-3xl font-extrabold mb-6 text-center text-[#C99A63]">Pusha Bakery Team</h2>
+        <div class="overflow-x-auto">
+            <table class="w-full max-w-3xl mx-auto border-collapse border border-[#C99A63]">
+                <thead>
+                    <tr class="bg-[#e6d4c3]">
+                        <th class="border border-[#C99A63] px-3 py-2 text-left font-semibold">Chef Name</th>
+                        <th class="border border-[#C99A63] px-3 py-2 text-left font-semibold">Specialty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-[#C99A63] px-3 py-2">Chef Rayhan</td>
+                        <td class="border border-[#C99A63] px-3 py-2">Bread Specialist</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="border border-[#C99A63] px-3 py-2">Chef Habil</td>
+                        <td class="border border-[#C99A63] px-3 py-2">Pastry Specialist</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-[#C99A63] px-3 py-2">Chef Yudha</td>
+                        <td class="border border-[#C99A63] px-3 py-2">Viennoiserie Expert</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="border border-[#C99A63] px-3 py-2">Chef Reza</td>
+                        <td class="border border-[#C99A63] px-3 py-2">Assistant Baker</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-[#C99A63] px-3 py-2">Chef Thoriq</td>
+                        <td class="border border-[#C99A63] px-3 py-2">Dessert Specialist</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br>
+
+        <h3 class="text-2xl font-semibold mt-10 mb-4 text-center text-[#C99A63]">Product Features</h3>
+        <ul class="list-disc list-inside max-w-xl mx-auto text-lg text-[#C99A63]">
+            <li>100% Organic Flour</li>
+            <li>No Artificial Preservatives</li>
+            <li>Baked Fresh Daily</li>
+            <li>100% Halal Certified</li>
+        </ul>
+
+        <br>
+
+        <h3 class="text-2xl font-semibold mt-10 mb-4 text-center text-[#C99A63]">Our Product Categories</h3>
+        <ul class="list-disc list-inside max-w-xl mx-auto text-lg text-[#C99A63]">
+            <li>Fresh Bread</li>
+            <li>Pastries</li>
+            <li>Cakes and Desserts</li>
+            <li>Artisan Sandwiches</li>
+            <li>Seasonal Specials</li>
+        </ul>
+
+        <br>
+
+        <h3 class="text-2xl font-semibold mt-10 mb-4 text-center text-[#C99A63]">Why Choose Pusha Bakery?</h3>
+        <ol class="list-decimal list-inside max-w-xl mx-auto text-lg text-[#C99A63] space-y-2">
+            <li>We use only high-quality ingredients.</li>
+            <li>Our team consists of experienced, professional chefs.</li>
+            <li>We bake fresh products daily.</li>
+            <li>We offer a cozy and welcoming atmosphere.</li>
+            <li>Our products are crafted to deliver authentic, delightful flavors.</li>
+        </ol>
+
+        <br>
+
+        <h3 class="text-2xl font-semibold mt-10 mb-4 text-center text-[#C99A63]">Baking Instructions</h3>
+        <ol class="list-decimal list-inside max-w-xl mx-auto text-lg text-[#C99A63] space-y-2">
+            <li>Preheat the oven to 180°C (350°F).</li>
+            <li>Mix flour, yeast, and salt in a bowl.</li>
+            <li>Add water and knead the dough until smooth.</li>
+            <li>Let the dough rise for 1 hour in a warm place.</li>
+            <li>Bake the bread for 30 minutes or until golden brown.</li>
+        </ol>
+
+        <br><br><br>
+
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl font-semibold text-center mb-6">Bread Composition</h1>
+
+            <table class="w-full border-collapse border border-gray-300 shadow-lg rounded-lg overflow-hidden">
+                <thead class="bg-[#e6d4c3] marker:text-[#C99A63]">
+                    <tr>
+                        <th class="border border-gray-300 px-6 py-3 text-left">Ingredient</th>
+                        <th class="border border-gray-300 px-6 py-3 text-center">Quantity</th>
+                        <th class="border border-gray-300 px-6 py-3 text-center">Unit</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white">
+                    <tr>
+                        <td class="border border-gray-300 px-6 py-4">Wheat Flour</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">500</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">grams</td>
+                    </tr>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-6 py-4">Sugar</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">100</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">grams</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 px-6 py-4">Butter</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">50</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">grams</td>
+                    </tr>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-6 py-4">Milk</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">250</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">ml</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 px-6 py-4">Instant Yeast</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">10</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">grams</td>
+                    </tr>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-6 py-4">Eggs</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">2</td>
+                        <td class="border border-gray-300 px-6 py-4 text-center">pieces</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="min-h-screen p-10 flex justify-center items-center">
+            <div class="max-w-sm w-full bg-white border-4 border-black p-4 shadow-lg text-black">
+                <h1 class="text-2xl font-extrabold border-b-4 border-black pb-2 mb-2">Nutrition Facts</h1>
+
+                <p class="text-sm font-medium">Serving Size: 1 piece (85g)</p>
+                <p class="text-sm font-medium border-b border-gray-400 pb-2 mb-2">Servings Per Container: 6</p>
+
+                <div class="flex justify-between font-bold text-lg mb-1">
+                    <span>Amount Per Serving</span>
+                    <span>Calories 250</span>
+                </div>
+                <p class="text-right text-sm font-medium mb-2">Calories from Fat 90</p>
+
+                <div class="border-t-2 border-black py-2 text-sm">
+                    <div class="flex justify-between mb-1">
+                        <span>Total Fat</span>
+                        <span>10g</span>
+                    </div>
+                    <p class="text-right text-xs text-gray-500 mb-1">15% DV</p>
+
+                    <div class="flex justify-between mb-1">
+                        <span>&nbsp;&nbsp;&nbsp;Saturated Fat</span>
+                        <span>3.5g</span>
+                    </div>
+                    <p class="text-right text-xs text-gray-500 mb-1">18% DV</p>
+
+                    <div class="flex justify-between mb-1">
+                        <span>Cholesterol</span>
+                        <span>30mg</span>
+                    </div>
+                    <p class="text-right text-xs text-gray-500 mb-1">10% DV</p>
+
+                    <div class="flex justify-between mb-1">
+                        <span>Sodium</span>
+                        <span>240mg</span>
+                    </div>
+                    <p class="text-right text-xs text-gray-500 mb-1">10% DV</p>
+
+                    <div class="flex justify-between mb-1">
+                        <span>Total Carbohydrate</span>
+                        <span>30g</span>
+                    </div>
+                    <p class="text-right text-xs text-gray-500 mb-1">10% DV</p>
+
+                    <div class="flex justify-between mb-1">
+                        <span>&nbsp;&nbsp;&nbsp;Dietary Fiber</span>
+                        <span>2g</span>
+                    </div>
+                    <p class="text-right text-xs text-gray-500 mb-1">8% DV</p>
+
+                    <div class="flex justify-between mb-1">
+                        <span>&nbsp;&nbsp;&nbsp;Sugars</span>
+                        <span>5g</span>
+                    </div>
+
+                    <div class="flex justify-between mb-1">
+                        <span>Protein</span>
+                        <span>8g</span>
+                    </div>
+                </div>
+
+
+                <p class="text-xs text-gray-500 mt-2">
+                    * Percent Daily Values (DV) are based on a 2,000 calorie diet. Your daily values may be higher or
+                    lower depending on your calorie needs.
+                </p>
+            </div>
+        </div>
+
+        <script>
+            const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+            const today = new Date();
+
+            const dayName = days[today.getDay()];
+            const day = today.getDate();
+            const monthName = months[today.getMonth()];
+            const year = today.getFullYear();
+
+            const fullDate = `${dayName}, ${day} ${monthName} ${year}`;
+
+            document.getElementById("date-display").textContent = fullDate;
+
+        </script>
+</body>
+
+</html>
